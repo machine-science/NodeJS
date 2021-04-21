@@ -12,6 +12,20 @@ const StringDecoder = require('string_decoder').StringDecoder;
 const config = require('./config');
 const fs = require('fs');
 
+/*
+Follwoind code needs to be deleted
+
+// const _data = require('./lib/data');
+//
+// // TESTING
+// // @TODO delete this
+// _data.delete('test', 'newFile', function(err) {
+//   console.log('This was the error', err);
+// });
+
+**/
+
+
 // we are instantiating the http server
 const httpServer = http.createServer(function(req, res) {
   unifiedServer(req, res);
